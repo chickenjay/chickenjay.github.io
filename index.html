@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>从地球望向宇宙</title>
+    <script src="javascript/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="./javascript/swiper/dist/css/swiper.min.css">
+    <script src="./javascript/swiper/dist/js/swiper.min.js"></script>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./javascript/index.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="side colored" onclick="$('html,body').animate({ scrollTop: $('#s1').offset().top }, 400)"></div>
+            <div class="side" onclick="$('html,body').animate({ scrollTop: $('#s2').offset().top }, 400)"></div>
+            <div class="side" onclick="$('html,body').animate({ scrollTop: $('#s3').offset().top }, 400)"></div>
+            <div class="side" onclick="$('html,body').animate({ scrollTop: $('#s4').offset().top }, 400)"></div>
+            <div class="side" onclick="$('html,body').animate({ scrollTop: $('#s5').offset().top }, 400)"></div>
+        </div>
+        <div class="screen s1" id="s1">
+            <video id="bgVideo" muted autoplay loop playsinline src="./source/video/back1.mp4"></video>
+            <div class="wrapper">
+                <div class="bigger" id="s1l1">&nbsp; 从地球&nbsp;</div>
+                <div class="smaller" id="s1l2">&nbsp;望向</div>
+                <div class="bigger" id="s1l3">&nbsp;宇宙</div>
+            </div>
+            <div class="promote" onclick="$('html,body').animate({ scrollTop: $('#s2').offset().top }, 400)">
+                <p>向下滑动来了解</p>
+				<p><a href="银河系.html">附页</a></p>
+                <img src="source/img/down.svg" id="down">
+            </div>
+        </div>
+        <div class="banner">
+            <div class="span" id="b1">太阳系的行星&nbsp;</div>
+            <div class="span hidden" id="b2">&nbsp;</div>
+        </div>
+        <div class="screen s2" id="s2">
+            <div class="wrapper">
+                <div class="content-wrapper" id="warpper1">
+                    <div class="head">同在宇宙</div>
+                    <div class="content">
+                        <div class="span">我们处在</div>
+                        <div class="span">银河系一个叫做猎户臂的悬臂上</div>
+                        <div class="span">距离<div class="colored">银河系中心</div>约有<div class="colored"> 2.6万光年 </div>
+                        </div>
+                    </div>
+                    <div class="btn" id="more1">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 183 56">
+                            <path d="M-177-1912l26,28-26,28Zm-131,56v-56h131v56Zm-26-28,26-28v56Z" transform="translate(334 1912)" fill="#fff" />
+                            <text transform="translate(92 39.482)" font-size="28">
+                                <tspan x="-56" y="0">了解更多</tspan>
+                            </text>
+                        </svg>
+                    </div>
+                </div>
+                <div class="skew">
+                    <div class="line"></div>
+                </div>
+                <div class="content-wrapper" id="warpper2">
+                    <div class="head">被群星环绕</div>
+                    <div class="content cr">
+						<div class="span">我们渺小</div>
+                        <div class="span">我们<div class="colored">独特</div>
+                        </div>
+                    </div>
+                    <div class="btn" id="more2">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 183 56">
+                            <path d="M-177-1912l26,28-26,28Zm-131,56v-56h131v56Zm-26-28,26-28v56Z" transform="translate(334 1912)" fill="#fff" />
+                            <text transform="translate(92 39.482)" font-size="28">
+                                <tspan x="-56" y="0">了解更多</tspan>
+                            </text>
+                        </svg>
+                    </div>
+                </div>
+                <!-- Slider main container -->
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <!-- 第一个为占位符 -->
+                        <div class="swiper-slide">
+                            <div class="skew-fix"><img alt=""></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="skew-fix"><img alt=""></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="skew-fix"><img alt=""></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="skew-fix"><img alt=""></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="skew-fix"><img alt=""></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="skew-fix"><img alt=""></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="skew-fix"><img alt=""></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mask">
+                    <h1 id="gameName">标题</h1>
+                    <h3 id="gameDes">简介</h3>
+                    <h3><a href="" id="gameSite" target="_blank">更多信息&nbsp;&raquo;</a></h3>
+                    <div class="swiper-btn">
+                        <div class="swiper-button-prev swiper-button-white"></div>
+                        <div class="swiper-button-next swiper-button-white"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-section">
+                <video muted autoplay loop playsinline src="source/video/111.mp4"></video>
+                <img src="source/img/ProDisplayXDR.png" alt="img">
+                <div class="filter"></div>
+            </div>
+            <div class="siderS" id="s3">
+                <img class="sider sd1" src="source/img/a.jpg">
+                <div class="text-view sd1 left">地球是距离太阳的第三颗行星，也是目前已知的唯一孕育和支持生命的天体。地球表面的大约 29.2% 是由大陆和岛屿组成的陆地。剩余的 70.8% 被水覆盖，大部分被海洋、海湾和其他咸水体覆盖，也被湖泊、河流和其他淡水覆盖，它们共同构成了水圈。地球的大部分极地地区都被冰覆盖。地球外层分为几个刚性构造板块，它们在数百万年的时间里在地表迁移，而其内部仍然保持活跃，有一个固体铁内核、一个产生地球磁场的液体外核，以及一个驱动板块构造的对流地幔。</div>
+
+                <img class="sider sd2" src="source/img/c.jpg">
+                <div class="text-view sd2 left">外星生命一般指存在于地球以外的生命体。这个概念囊括了简单的细菌到具有高度智慧的外星人。研究和测试关于外星生命猜想的学科被称作地外生物学或天体生物学。自从二十世纪中叶以来，人类一直使用包括探测地球之外的电波、天文望远镜观测潜在的宜居行星等方法探测外星生命存在的迹象，但迄今为止并没有确切证据表明外星生命的存在。有人认为发现外星人的机率很小，也有很多人认为外星生命必定存在。大量关于外星人的报道、科幻小说和电影的充斥，使得外星生命的传闻变得有声有色。</div>
+                
+                <img src="source/img/d.jpg" class="sider sd3">
+                <div class="text-view sd3 left">“宇宙进化”是孙中山受到进化论的启发而创立的学说。孙中山认为,宇宙的进化有三时期——物质进化时期、物种进化时期和人类进化时期,第一时期进化到出现了地球,又经历了漫长的阶段,地球上的非生物物质才演化出原始生命——细胞,即“生元”。《孙文学说》中提出了“生元”说,对“生元”一词进行了界定,揭示“生元”的特点,以及“生元”与生物界、与人类社会的关系</div>
+               
+                <img class="sider sd4" src="source/img/star/3.webp">
+                <div class="text-view sd4 right">天文学家在2010年4月宣布，我们的宇宙就像是俄罗斯套娃的一部分，可能栖身于一个黑洞内，而这个黑洞本身又是一个更大宇宙的一部分。反过来，迄今在宇宙中发现的所有黑洞可能都是通向其他世界的通道。</div>
+               
+                <img class="sider sd5" src="source/img/star/4.webp">
+                <div class="text-view sd5 right">宇宙到底是什么结构，科学家至今没有搞清楚。一般解释大多是从物理学的角度来分析。从微观上讲：我们知道，物质最基本的微粒是分子，而分子是由不同元素的原子结合而成。无数的分子组成到一起就是我们肉眼能看得见的物质。物质当中有生命的，我们叫它是生物组织……不管它的结构如何，都是由原子——分子组成的。一个生命体中（比如一个细胞）包含有许多不同的物质，这些物质的组成又包含不同的原子。自然界的千千万万种物质的结构都是这样的。从宏观上来看，太阳系是由发光发热的巨大的核反应堆和围绕太阳旋转的几大行星组成，太阳系中的行星，都是围着太阳旋转的，不难发现，这种结构与原子的结构何其相似！银河系的结构正像是我们了解的其它物质一样，如果我们以更大的视点来看它，说它是某个巨型物质的一个分子或是一个组织细胞不是也很确切吗？</div>
+               
+                <img class="sider sd6" src="source/img/star/88.webp">
+                <div class="text-view sd6 right">宇宙是无限大。 地球对于人类来说，已经很大，它的半径约637.2千米，但比起太阳来，却只有太阳半径的1/109。如果把和地球一样大的星球排起来，大约要200万个地球才能排列到太阳系中的冥王星，而太阳系只是银河中的一颗恒星。庞大的银河系中，大约有一千多亿颗像太阳那么大，甚至直径比太阳大几千倍以上的恒星。从银河系的一头跑到另一头，就连速度最快的光也要走上10万年。 银河系还不算大，至今已发现10亿多个和银河系同样庞大的恒星系统，还有更多更遥远的没有发现呢。 对于整个宇宙，我们的所有知识加起来都显得那么贫乏，任何想象都显得那么苍白！面对宇宙，我们只能说：“我想知道，但我尚不知道！”</div>
+            </div>
+        </div>
+        <div class="screen s3" id="s4">
+            <div class="imgContainer" id="iC1">
+                <img src="source/img/star/2.webp" alt="">
+            </div>
+            <div class="imgContainer" id="iC2">
+                <img src="source/img/star/2.webp" alt="">
+            </div>
+            <div class="wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 0 330.414 317.931" id="hof">
+                    <defs>
+                        <linearGradient id="linear-gradient" x1="0.255" y1="0.01" x2="0.749" y2="0.997"
+                            gradientUnits="objectBoundingBox">
+                            <stop offset="0" stop-color="#c8a06a" />
+                            <stop offset="1" stop-color="#806644" />
+                        </linearGradient>
+                    </defs>
+                    <g transform="translate(-85.474 -400.164)">
+                        <path d="M190.772,0l63.591,110.129L190.772,220.258H63.591L0,110.129,63.591,0Z" transform="translate(195.603 400.164) rotate(30)" fill="url(#linear-gradient)" />
+                        <text transform="translate(250.156 522.444)" fill="#fff" font-size="43">
+                            <tspan x="-43" y="0">天文</tspan>
+                            <tspan x="-64.5" y="50">景观</tspan>
+                        </text>
+                        <text transform="translate(250.5 618)" fill="#f2f2f2" font-size="24">
+                            <tspan x="-48" y="0">click here</tspan>
+                        </text>
+                    </g>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 0 330.414 317.931" id="tl">
+                    <defs>
+                        <linearGradient id="linear-gradient" x1="0.255" y1="0.01" x2="0.749" y2="0.997" gradientUnits="objectBoundingBox">
+                            <stop offset="0" stop-color="#c8a06a" />
+                            <stop offset="1" stop-color="#806644" />
+                        </linearGradient>
+                    </defs>
+                    <g transform="translate(-85.474 -400.164)">
+                        <path d="M190.772,0l63.591,110.129L190.772,220.258H63.591L0,110.129,63.591,0Z" transform="translate(195.603 400.164) rotate(30)" fill="url(#linear-gradient)" />
+                        <text transform="translate(250.156 522.444)" fill="#fff" font-size="43">
+                            <tspan x="-43" y="0">宇宙</tspan>
+                            <tspan x="-64.5" y="50">365天</tspan>
+                        </text>
+                        <text transform="translate(250.5 618)" fill="#f2f2f2" font-size="24">
+                            <tspan x="-48" y="0">click here</tspan>
+                        </text>
+                    </g>
+                </svg>
+            </div>
+        </div>
+        <div class="screen s4" id="s5">
+            <div class="wrapper">
+                <div class="smaller" id="s5l1">我们的目标是</div>
+                <div class="bigger" id="s5l2">星辰</div>
+				<div class="smaller" id="s5l1">与</div>
+                <div class="bigger" id="s5l3">大海</div>
+            </div>
+        </div>
+    </div>
+    <div class="closeBtn">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38.891 38.891">
+            <g transform="translate(133.997 -310.773) rotate(45)">
+                <line x2="50" transform="translate(127.5 314.5)" fill="none" stroke="#fff" stroke-width="5" />
+                <line x2="50" transform="translate(152.5 289.5) rotate(90)" fill="none"stroke="#fff" stroke-width="5" />
+            </g>
+        </svg>
+    </div>
+    <iframe src="waterfallflow.html" frameborder="0" id="waterflow"></iframe>
+    <iframe src="timeline.html" frameborder="0" id="timeline"></iframe>
+</body>
+
+</html>
