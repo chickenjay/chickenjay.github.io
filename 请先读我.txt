@@ -1,0 +1,4 @@
+作品有动态效果，截图展示效果不好，请打开index.html文件。
+index可链接至对应“宇宙365天”的页面"timeline.html"，
+“附页”页面"银河系.html"和
+“宇宙奇观”页面“waterfallflow.html”。
